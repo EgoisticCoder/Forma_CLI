@@ -53,7 +53,8 @@ The optional headed mode launches a separate Chromium process. FORMA does not at
 - [GitHub repository](https://github.com/EgoisticCoder/Forma_CLI)
 - [npm package](https://www.npmjs.com/package/@forma-ai/forma)
 - [FORMA MCP server](https://github.com/EgoisticCoder/Forma_MCP)
-- [Project website](https://github.com/EgoisticCoder/Forma)
+- [FORMA CLI website](https://forma-cli-website.vercel.app/)
+- [FORMA project](https://github.com/EgoisticCoder/Forma)
 
 ## License
 

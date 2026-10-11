@@ -7,7 +7,7 @@
   "bin": { "forma": "dist/index.js" },
   "files": ["dist", "README.md", "LICENSE", "forma-mascot(1).txt", "forma-mascot-mono-amber.svg"],
   "license": "MIT",
-  "homepage": "https://github.com/EgoisticCoder/Forma_CLI#readme",
+  "homepage": "https://forma-cli-website.vercel.app/",
   "keywords": ["forma", "cli", "coding-agent", "browser-agent", "playwright", "ui-ux", "website-audit", "accessibility", "mcp", "terminal"],
   "publishConfig": { "access": "public" },
   "repository": { "type": "git", "url": "https://github.com/EgoisticCoder/Forma_CLI.git" },
