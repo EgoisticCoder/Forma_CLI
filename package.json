@@ -1,0 +1,20 @@
+{
+  "name": "@forma-ai/forma",
+  "version": "0.5.0",
+  "description": "FORMA CLI pairs your coding model with a permissioned Playwright browser and a screenshot-trained UI/UX auditor, so you can inspect pages, change code, and verify the result from your terminal.",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "bin": { "forma": "dist/index.js" },
+  "files": ["dist", "README.md", "LICENSE", "forma-mascot(1).txt", "forma-mascot-mono-amber.svg"],
+  "license": "MIT",
+  "homepage": "https://github.com/EgoisticCoder/Forma_CLI#readme",
+  "keywords": ["forma", "cli", "coding-agent", "browser-agent", "playwright", "ui-ux", "website-audit", "accessibility", "mcp", "terminal"],
+  "publishConfig": { "access": "public" },
+  "repository": { "type": "git", "url": "https://github.com/EgoisticCoder/Forma_CLI.git" },
+  "scripts": { "build": "tsc -p tsconfig.json", "start": "node dist/index.js" },
+  "dependencies": {
+    "@forma-ai/forma-mcp": "^0.5.0",
+    "@modelcontextprotocol/sdk": "^1.17.0"
+  },
+  "devDependencies": { "@types/node": "^22.0.0", "typescript": "^5.8.0" }
+}
